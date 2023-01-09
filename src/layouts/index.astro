@@ -1,0 +1,31 @@
+---
+import "./styles/global.css";
+import "./index.css";
+import vector_left from "../../public/images/Vector-left.png";
+import vector_right from "../../public/images/Vector-right.png";
+export interface Props {
+  title?: string;
+}
+const { title = "Astro" } = Astro.props as Props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title}</title>
+  </head>
+  <img class="vector_left" src={vector_left} alt="" />
+  <img class="vector_right" src={vector_right} alt="" />
+  <slot />
+
+
+</html>

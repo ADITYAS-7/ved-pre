@@ -1,0 +1,11 @@
+.vector_left {
+  position: fixed;
+  float: left;
+  width: 20%;
+}
+.vector_right {
+  position: fixed;
+  float: right;
+  margin-left: 85%;
+  padding-top: 15%;
+}

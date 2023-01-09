@@ -1,0 +1,11 @@
+---
+import "./index.css";
+
+export type Props = {
+  label: string;
+};
+
+const { label } = Astro.props;
+---
+
+<button class="button">{label}</button>
