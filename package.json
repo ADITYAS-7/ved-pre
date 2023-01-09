@@ -1,5 +1,4 @@
 {
-  "homepage": "http://ADITYA-7.github.io/ved-pre",
   "name": "@example/basics",
   "type": "module",
   "version": "0.0.1",
@@ -7,8 +6,6 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
