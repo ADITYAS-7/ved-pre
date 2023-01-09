@@ -1,17 +1,21 @@
 ---
 import Layout from "../layouts/index.astro";
-import Button from "../components/Button/index.astro";
-import logo from "../images/Vedarc-logo.png";
-
-import "../layouts/styles/global.css";
 ---
 
-<Layout title="Vedarc Coming Soon">
+<Layout title="Vedarc: Coming Soon">
   <section class="hero">
-    <div class="hero-text">
-      <img class="logo" src={logo} alt="" />
-      <h1>Digital <br /> transformation <br /> through cloud</h1>
-      <div class="coming_soon"><Button label="Coming Soon" /></div>
-    </div>
+    <img
+      alt="VedArc"
+      class="logo"
+      height="36"
+      src="/images/logo.png"
+      width="171"
+    />
+    <h1>
+      Digital<br />
+      transformation<br />
+      through cloud
+    </h1>
+    <a class="button" href="#">Coming soon</a>
   </section>
 </Layout>
