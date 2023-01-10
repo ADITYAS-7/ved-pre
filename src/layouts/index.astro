@@ -4,6 +4,7 @@ import "./styles/global.css";
 export type Props = {
   title?: string;
 };
+
 const { title = "VedArc" } = Astro.props;
 ---
 
@@ -27,16 +28,7 @@ const { title = "VedArc" } = Astro.props;
       rel="stylesheet"
     />
   </head>
-<<<<<<< Updated upstream
-  <img class="vector_left" src={vector_left} alt="" />
-  <img class="vector_right" src={vector_right} alt="" />
-  <slot />
-
-=======
   <body>
-    <main>
-      <slot />
-    </main>
+    <slot />
   </body>
->>>>>>> Stashed changes
 </html>
